@@ -13,4 +13,4 @@ ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/
 RUN chmod +x /usr/bin/tini
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
-CMD ["jupyter", "notebook", "/src/Fundamentals-of-ML.ipynb", "/Resources/lsd.csv", "/Resources/brain.csv", "/Resources/foam.csv","/Resources/brain_categorical.csv", "/Resources/smoking.csv", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root","--NotebookApp.token='cafevenetia'"]
+CMD ["jupyter", "notebook", "/src/Fundamentals-of-ML.ipynb", "./Resources/lsd.csv", "./Resources/brain.csv", "./Resources/foam.csv", "./Resources/brain_categorical.csv", "./Resources/smoking.csv", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root","--NotebookApp.token='cafevenetia'"]

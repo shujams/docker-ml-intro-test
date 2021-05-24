@@ -11,6 +11,7 @@ Please visit [Cell-Ed/umbrella](https://github.com/Cell-Ed/umbrella) to get star
 ## Summary
 
 A survey of fundamental machine learning concepts. 
+
 *A basic understanding of statistics and linear algebra is highly recommended.*
 
 ## Documentation
